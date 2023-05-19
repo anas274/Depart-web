@@ -1,0 +1,881 @@
+body {
+    color: #505e6b;
+    font-family: sans-serif !important;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.text-red{
+    color: red;
+}
+#logo img {
+    width: 15%;
+}
+
+#header {
+    font-size: 14px;
+}
+
+#header i {
+    color: #16a8aa;
+}
+
+#header a {
+    color: #16a8aa;
+}
+
+#header a:hover {
+    color: #14305d;
+}
+
+.header-border {
+
+    border-bottom: 1px solid #DDDDDD42;
+}
+
+#logo {
+    height: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #14305d !important;
+    font-weight: 500;
+    font-family: var(--e-global-typography-253c853-font-family), Sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #16a8aa !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #16a8aa !important;
+
+}
+
+#header-button {
+    background-color: #14305d;
+}
+
+#header-button span {
+    font-size: 16px;
+}
+
+#baneer-color {
+    background-color: #14315f;
+    height: 660px;
+    position: relative;
+}
+
+#baneer-img {
+    background-image: url('../img/uni-pic.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#position {
+    position: absolute;
+    margin-top: 3%;
+}
+
+.header-links {
+    padding: 4%;
+}
+
+#banner-card-btn {
+    background-color: #16a8aa;
+}
+
+#team-img img {
+    object-fit: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.781);
+}
+
+#team-card {
+    position: absolute;
+}
+
+#position #banner-card-btn:hover {
+    background-color: #14315f;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.404);
+    -webkit-transition: all .5s ease-out;
+}
+
+.team-about {
+    border-bottom: 4px #16a8aa solid;
+    /* width: 31%; */
+}
+
+.check-circle i {
+    color: #16a8aa;
+}
+
+#sec-banner #banner-card-btn:hover {
+    background-color: #14315f;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.404);
+    -webkit-transition: all .5s ease-out;
+}
+
+#enterpenur-img {
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.781);
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.who-we-are {
+    border-bottom: 4px #16a8aa solid;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #16a8aa;
+    transition: width .6s ease;
+}
+
+.check-icon i {
+    color: #16a8aa;
+}
+
+#view-btn button {
+    background-color: #16a8aa;
+    color: white;
+}
+
+#view-btn button:hover {
+    color: black;
+    background-color: white;
+    -webkit-transition: all .5s ease-out;
+}
+
+.Services {
+    border-bottom: 4px #16a8aa solid;
+}
+
+.baneer {
+    margin-top: -9px;
+}
+
+#services-btn button {
+    background-color: #16a8aa;
+    color: white;
+}
+
+#services-btn button:hover {
+    color: white;
+    background-color: #14315f;
+}
+
+#bussiness-card {
+    height: 300px;
+    position: relative;
+
+}
+
+#bussiness-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.img-bost{
+  object-fit: cover;
+}
+#services-card1 {
+    position: absolute;
+    left: 12%;
+    top: 90%;
+    background-color: #FFFFFF;
+    padding: 40px 30px 40px 30px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+#services-card1:hover {
+    margin-top: 30px;
+    box-shadow: 0px 3px 5px 0px #14315f79;
+    -webkit-transition: all .5s ease-out;
+}
+
+.choose-us {
+    background-color: #061938;
+    padding: 20px;
+}
+
+.choose-us-heading {
+    border-bottom: 4px #16a8aa solid;
+}
+
+.choose-container {
+    position: relative;
+}
+
+.choose-absolute-container {
+    position: absolute;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    top: 110%;
+}
+
+.case-heading {
+    border-bottom: 4px #16a8aa solid;
+    /* margin-left: 45%; */
+}
+
+.card-p-border {
+    border-bottom: 1px #dbe1e7 solid;
+    padding-bottom: 10px;
+}
+
+.process-heading {
+    border-bottom: 4px #16a8aa solid;
+}
+
+.process-container {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.cases-container {
+    margin-top: 15%;
+    text-align: center;
+    position: relative;
+}
+
+.Testimonials {
+    background-color: #061938;
+    height: 100vh;
+    padding-top: 20%;
+    position: relative;
+    margin-top: 25%;
+}
+
+.case-absolute {
+    position: absolute;
+    top: -40%;
+    left: 0;
+}
+
+.case-absolute img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+
+}
+
+.case-absolute-hover {
+    position: relative;
+}
+
+.case-absolute-hover img {
+    position: relative;
+}
+
+.case-absolute-hover div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+    padding: 20px;
+    background-color: #14305d;
+    opacity: 0;
+}
+.case-absolute-hover div:hover{
+    opacity: 0.75;
+    transition: 0.5s;
+}
+.Testimonials .span {
+    border-bottom: 4px #16a8aa solid;
+    color: #ffffff;
+}
+
+.carousel {
+    background: #ffffff;
+}
+
+.carousel-cell {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 1px;
+    line-height: 30px;
+    padding: 20px 20px;
+    margin: 15px;
+}
+
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+}
+
+.carousel-cell img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+
+
+
+.color-numbers {
+    background-color: #16a8aa;
+    color: white;
+    border-radius: 100%;
+    line-height: 50px;
+    padding: 20px;
+}
+
+.border-div {
+    line-height: 50px;
+    margin-top: 5%;
+    border-top: 2px dashed #16a8aa52;
+}
+
+
+
+.process-cards {
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.process-cards:hover {
+    box-shadow: 0px 3px 15px 0px #16a8aa52;
+    margin-top: 20px;
+    -webkit-transition: all .5s ease-out;
+}
+
+.video-bg {
+    background-image: url(../img/team-of-cheerful-business-people-in-meeting-e1638180830256.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    margin-top: 8%;
+    background-size: cover;
+    background-position: center;
+}
+
+.video-color {
+    background-color: #061938da;
+    height: 80vh;
+    text-align: center;
+
+}
+
+.video-color i {
+    color: #16a8aa;
+    font-size: 20px;
+    padding: 18px 23px;
+    border-radius: 100%;
+    height: 57px;
+    width: 57px;
+}
+
+.video-color div {
+    padding-top: 50px;
+}
+
+.video-color i:hover {
+    box-shadow: 0px 3px 15px 0px #16a8aacb;
+}
+
+.video-color button {
+    background-color: #16a8aa;
+    color: white;
+}
+
+.video-color button:hover {
+    background-color: white;
+    color: #14305d;
+    box-shadow: 0px 3px 15px 0px #16a8aacb;
+    -webkit-transition: all .5s ease-out;
+}
+
+.blog-container {
+    margin-top: 5%;
+}
+
+.blog-container span {
+    border-bottom: 4px #16a8aa solid;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0.25rem;
+}
+
+.blog-cards {
+    text-align: left;
+
+}
+
+.blog-cards strong {
+    font-size: 20px;
+}
+
+.blog-cards strong a:hover {
+    color: #16a8aa;
+}
+
+.blog-cards .card:hover {
+    box-shadow: 0px 3px 15px 0px #16a8aa34;
+    -webkit-transition: all .5s ease-out;
+    margin-top: 30px;
+}
+
+.footer img {
+    width: 80%;
+}
+
+.footer-quick-links span {
+    border-bottom: 3px solid #16a8aa;
+    padding-bottom: 10px;
+}
+
+.footer-quick-links a:hover {
+    color: #16a8aa;
+    -webkit-transition: all .5s ease-out;
+}
+
+.footer-quick-links a {
+    color: #ffffff;
+}
+
+.footer-useful-links span {
+    border-bottom: 3px solid #16a8aa;
+    padding-bottom: 10px;
+}
+
+.footer-useful-links a:hover {
+    color: #16a8aa;
+    -webkit-transition: all .5s ease-out;
+}
+
+.footer-useful-links a {
+    color: #ffffff;
+}
+
+.footer-timming span {
+    border-bottom: 3px solid #16a8aa;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.footer-timming button {
+    background-color: #16a8aa;
+    color: #fff;
+}
+
+.footer-timming button:hover {
+    background-color: #ffffff;
+    color: #16a8aa;
+    -webkit-transition: all .5s ease-out;
+}
+
+.footer-container {
+    padding-bottom: 110px;
+    border-bottom: 1px solid #DDDDDD42;
+}
+
+.footer {
+    position: relative;
+    background-color: #061938;
+    padding-top: 13%;
+    text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .subscribed-position,
+    .icons {
+        display: none;
+    }
+
+    .baneer {
+        margin-top: 0;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    #icons {
+        float: none;
+    }
+    .case-absolute-hoverpage{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .number-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .cases-container {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cases-container {
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width: 633px) {
+    .cases-container {
+        margin-top: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cases-container {
+        margin-top: 140%;
+    }
+}
+
+@media screen and (min-width: 1340px) {
+    #position {
+        margin-top: 5%;
+    }
+
+    .subscribed-position {
+        margin-left: 0%;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+    .subscribed-position {
+        margin-left: 7.5%;
+    }
+
+    .absolute-carousel {
+        margin-top: -6% !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #bussiness-card {
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+
+    .process-container {
+        margin-top: 20%;
+    }
+
+    .process-cards {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    #side-btn,
+    .case-absolute {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    #baneer-color,
+    #position {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .Make-Appointment {
+        height: auto;
+    }
+
+    .appointment-description {
+        display: none;
+    }
+
+    .process-container {
+        padding-top: 25%;
+    }
+
+    .absolute-carousel .carousel .carousel-cell {
+        /* width: 100%; */
+        display: none;
+    }
+}
+
+
+/* service style sheet  */
+.baner-img-service {
+    background-image: url('../img/managers-working-with-financial-chart-e1638180766443.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+
+.baner-color-service {
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.services-baner-text {
+    padding-top: 200px;
+}
+
+.Make-Appointment {
+    background-color: #14305d;
+    margin-top: 20%;
+    height: 620px;
+}
+
+.Make-Appointment-container {
+    padding-top: 164px;
+
+}
+
+.form {
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.233);
+    padding: 50px;
+    /* padding-top: 100px   ; */
+    padding-bottom: 90px;
+}
+
+.Make-Appointment-container input {
+    padding: 15px;
+}
+
+.Make-Appointment-container select {
+    padding: 15px;
+}
+
+.Make-Appointment-container textarea {
+    padding: 15px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eaeaeacb;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e); */
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #eaeaeacb;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form button {
+    background-color: #16a8aa;
+    color: #fff;
+}
+
+.form button:hover {
+    background-color: #14305d;
+    color: white;
+    -webkit-transition: all .5s ease-out;
+    box-shadow: 0px 3px 15px 0px #16a8aa86;
+}
+
+.appointment-heading {
+    border-bottom: 3px solid #16a8aa;
+}
+
+.appointment-description {
+    padding-left: 50px;
+}
+
+.flickity-prev-next-button.previous {
+    display: none;
+}
+
+.flickity-prev-next-button.next {
+    display: none;
+}
+
+.flickity-page-dots {
+    display: none;
+}
+
+.testimonials-bg-img {
+    background-image: url('../img/portrait-of-successful-business-team-working-in-office-2-e1638180907680.jpg');
+    height: 500px;
+    background-position: 0px 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 6%;
+    position: relative;
+}
+
+.testimonials-bg-clr {
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: relative;
+}
+
+.testimonials-text span {
+    border-bottom: 3px solid #16a8aa;
+
+}
+
+.testimonials-text {
+    padding-top: 8%;
+}
+
+.absolute-carousel {
+    margin-top: -12%;
+}
+
+.our-pricing-heading {
+    border-bottom: 4px #16a8aa solid;
+}
+
+.our-pricing-container {
+    margin-top: 15%;
+}
+
+.our-pricing-links a {
+    color: #14305d;
+}
+
+.our-pricing-links a:hover {
+    color: #16a8aa;
+    -webkit-transition: all .5s ease-out;
+}
+
+.our-pricing-button {
+    background-color: #16a8aa;
+    color: #ffffff;
+}
+
+.our-pricing-button1 {
+    background-color: #16a8aa;
+    color: #ffffff;
+}
+
+.our-pricing-button:hover {
+    background-color: #14305d;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #16a8aa6b;
+}
+
+.our-pricing-button1:hover {
+    background-color: #ffffff;
+    color: #14305d;
+    box-shadow: 0px 0px 10px 0px #16a8aa6b;
+}
+
+/* Cases style sheet  */
+.baner-img-cases {
+    background-image: url('../img/business-colleagues-working-in-modern-conference-room-e1638180932309.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+
+.baner-color-cases {
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.cases-baner-text {
+    padding-top: 200px;
+}
+
+.case-absolute-hoverpage img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.case-absolute-hoverpage {
+    position: relative;
+}
+
+
+.case-absolute-hoverpage div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    background-color: #14305d;
+    opacity: 0;
+}
+.case-absolute-hoverpage div:hover{
+    opacity: 0.75;
+    transition: 0.5s;
+}
